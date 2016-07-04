@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id = "wrapper">
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/Pictures/Troll_Nation.jpg" Width="100%" />
+        </div>
+        <div id = "banner"></div>
+        <div id = "navigation">
+            <ul id = "nav">
+                <li><asp:HyperLink ID="HyperLink1" runat="server">Webshop</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink2" runat="server">About us</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink3" runat="server">Reports</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink4" runat="server">Management</asp:HyperLink></li>
+
+                
+                <%--<li><asp:HyperLink ID="HyperLink5" runat="server">Login</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink6" runat="server">Home</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink7" runat="server">Forum</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink8" runat="server">Management</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink8" runat="server">Management</asp:HyperLink></li>
+                --%>
+
+
+            </ul>
+
+        </div>
+        <div id = "content">
+        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        </div>
+
+
+
+
+
+    </div>
+    </form>
+</body>
+</html>

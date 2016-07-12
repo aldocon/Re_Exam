@@ -18,12 +18,12 @@
         <div id = "wrapper">
         </div>
         <div id = "banner">
-            <asp:Image ID="Image1" runat="server" ImageUrl="~/Pictures/banner-phishing-scams.png" Width="100%" />
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/Pictures/Phishing_Banner_Smaller.png" Width="100%" />
         </div>
         <div id = "navigation">
             <ul id = "nav">
                 <li><asp:HyperLink ID="HyperLink1" runat="server">Webshop</asp:HyperLink></li>
-                <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Pages/About.aspx">About</asp:HyperLink></li>
+                <%--<li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Pages/About.aspx">About</asp:HyperLink></li>--%>
                 <li><asp:HyperLink ID="HyperLink3" runat="server">Reports</asp:HyperLink></li>
                 <li><asp:HyperLink ID="HyperLink4" runat="server">Management</asp:HyperLink></li>
                 

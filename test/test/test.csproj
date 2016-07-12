@@ -73,6 +73,7 @@
     <Content Include="Pages\login.aspx" />
     <Content Include="Pictures\banner-phishing-scams.png" />
     <Content Include="Pictures\KeepCalmAndTroll.png" />
+    <Content Include="Pictures\Phishing_Banner_Smaller.png" />
     <Content Include="Pictures\Troll_Nation.jpg" />
     <Content Include="Pictures\UMAD_troll.jpg" />
     <Content Include="Site1.Master" />
